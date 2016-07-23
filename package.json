@@ -2,7 +2,7 @@
   "name": "package.json",
   "version": "1.0.0",
   "description": "Match uses on compatibility",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "5.11.0"
   }
 }
